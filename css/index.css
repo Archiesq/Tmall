@@ -45,10 +45,17 @@
 .topgoingleft1{
 	height:24px;
 	width:auto;
-	
 	line-height:27px;
 	float:left;
-
+}
+.topgoingleft1 a{
+	display: block;
+	float:left;
+}
+.topgoingleft1 span{
+	margin:0 10px;
+	display: block;
+	float:left;
 }
 .toppic2{
 	width:18px;
@@ -61,7 +68,7 @@
 .topgoingleft2{
 	height:24px;
 	width:auto;
-	margin-left:288px;
+	margin-left:200px;
 	line-height:27px;
 	float:left;
 
@@ -194,7 +201,6 @@ border-right:1px solid #e8e8e8;
 .topgoingleft4{
 	height:24px;
 	width:auto;
-	
 	line-height:27px;
 	float:left;
 
@@ -251,16 +257,16 @@ border-right:1px solid #e8e8e8;
 	margin-top:3px;
 	float:left;
 	margin-right:5px;
-}
+}    
 .topgoingleft8{
 	height:24px;
 	width:auto;
 	line-height:27px;
-	float:left;
+	float:right;
+	position:relative;
+	top:-24px;
 }
-.topgoingleft8,.yiji{
-	margin:0 0;
-}
+
 /*ËÑË÷*/
 .searchbox{
 	width:100%;
@@ -303,7 +309,9 @@ border-right:1px solid #e8e8e8;
 	color: #8C8C8C;
 }
 .search-center222{
+	position:absolute;
 	display: block;
+	left:603px;
 	width: 120px;
 	height: 36px;
 	float: left;
